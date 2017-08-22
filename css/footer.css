@@ -1,0 +1,78 @@
+.footer {
+    width: 100%;
+    height: 300px;
+    background-color: #F15A24;
+    border-bottom: 40px solid #F7931E;
+}
+
+.connection {
+    margin-top: 30px;
+    height: 100%;
+    width: 50%;
+    float: right;
+}
+
+.footer-title {
+    width: 400px;
+    border-bottom: 3px solid white;
+    font-size: 18px;
+}
+
+.footer-title-text {
+    display: inline;
+    color: white;
+    font-size: 30px;
+    padding-bottom: 50px;
+}
+
+.footer-outlink {
+    display: inline;
+    margin-left: 15px;
+}
+
+.outlink {
+    height: 30px;
+    margin-left: 10px;
+}
+
+.footer_QRcode {
+    float: left;
+}
+
+.QRcode {
+    height: 60px;
+    margin-top: 30px;
+}
+
+.footer-text1 {
+    width: 250px;
+    letter-spacing: 1px;
+    float: left;
+    margin-top: 30px;
+}
+
+.footer-text2 {
+    letter-spacing: 2.3px;
+}
+
+.footer-text1,
+.footer-text2 {
+    line-height: 30px;
+    color: white;
+    font-size: 16px;
+}
+
+.map-block {
+    padding-left: 30px;
+    height: 100%;
+    width: 50%;
+    float: left;
+    right: 0;
+    padding-top: 30px;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
