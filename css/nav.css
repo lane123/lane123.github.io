@@ -54,11 +54,7 @@
 .nav li.active {
     background-color:rgba(255,255,255,.2);
 }
-.input{
-    display: inline;
-    margin:5px 0; 
-    float:left;
-}
+
 .logo{
     position: absolute;
     left: 0;
@@ -198,10 +194,12 @@ body{
 }
 
 .search-box{
+    margin:20px 0; 
     float:left;
 }
 
 .search-btn{
+    margin:20px 0;
     float:left;
 }
 
@@ -214,10 +212,22 @@ body{
     .section1_mobile{
         display: none;
     }
+    .section2_mobile{
+        display: none;
+    }
+    .section3_mobile{
+        display: none;
+    }
 }
 
 @media screen and (max-width:1200px) {
     .section1{
+        display: none;
+    }
+    .section2{
+        display: none;
+    }
+    .section3{
         display: none;
     }
 }
