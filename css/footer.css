@@ -13,7 +13,7 @@
 }
 
 .footer-title {
-    width: 400px;
+    
     border-bottom: 3px solid white;
     font-size: 18px;
 }
@@ -75,4 +75,18 @@
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+}
+@media screen and (max-width:840px) {
+    .map-block{
+        display: none;
+    }
+    .connection{
+        display: none;
+    }
+    
+}
+@media screen and (min-width:840px) {
+    .footer-mobile{
+        display: none;
+    }
 }
