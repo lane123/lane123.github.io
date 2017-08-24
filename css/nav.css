@@ -4,7 +4,6 @@
 
 body {
     margin: 0;
-    background-image: url("/img/back3.png")
 }
 
 .nav-contain {
@@ -219,7 +218,9 @@ a:hover {
     animation-delay: 20s;
 }
 
-
+body {
+    background-image: url("/img/back3.png")
+}
 
 .search-box {
     margin: 20px 0;
@@ -248,7 +249,7 @@ header {
 }
 
 .mobile-header-nav {
-    background-color: rgba(33, 33, 33, 0.70);/*mobile背景顏色*/
+    background-color: #222222;
     display: none;
     list-style: none;
     margin: 0;
@@ -259,7 +260,7 @@ header {
 }
 
 .mobile-header-nav li {
-    border-bottom: 1px solid rgba(67, 24, 24, 0.10);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .mobile-header-nav li a {
@@ -273,7 +274,7 @@ header {
 }
 
 .mobile-header-nav li a:hover {
-    background-color: rgba(127, 115, 115, 0.38);
+    background-color: #2f2f2f;
 }
 
 .hamburger-menu {
