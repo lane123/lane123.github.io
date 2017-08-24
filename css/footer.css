@@ -110,13 +110,18 @@
 }
 @media screen and (max-width:615px) {
     .footer-contain{
-        width:615px;
+        width: 615px;
         padding:0 10%;
     }
+    
+    .mobile-delete{
+        display:none;
+    }
     .footer{
-        width:615px;
+        width: 615px;
     }
-    .contain, .slider-contain, .nav-contain{
-        width:615px;
+    .contain, .slider-contain, .nav-contain,{
+        width: 615px;
     }
+    
 }
