@@ -85,6 +85,9 @@
     
     padding: 30px 0;
 }
+.footer-mobile-text span{
+    letter-spacing: 5px;
+}
 * {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -110,18 +113,27 @@
 }
 @media screen and (max-width:615px) {
     .footer-contain{
-        width: 615px;
         padding:0 10%;
+    }
+    .footer-mobile-text{
+        padding:0;
     }
     
     .mobile-delete{
         display:none;
     }
-    .footer{
-        width: 615px;
-    }
-    .contain, .slider-contain, .nav-contain,{
-        width: 615px;
+    .footer-mobile-text span{
+        font-size:1vw;
     }
     
+}
+@media screen and (max-width:483px) {
+    
+    .footer-mobile-text span{
+        font-size:0.6vw;
+        letter-spacing: 0.09vw;
+    }
+    .footer-mobile-text{
+        padding:0;
+    }
 }

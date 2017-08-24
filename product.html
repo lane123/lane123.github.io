@@ -9,56 +9,143 @@
     <title>Document</title>
 
     <link href="css/nav.css" rel="stylesheet">
-    <link href="css/footer.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/footer.css">
 
     <style>
-        .contain {
-            padding: 0 10%;
+        .img-block {
+            width: 100%;
+            height: 270px;
+            background-color: #F15A24;
         }
 
-        .img1 {
-            width: 50%;
-            height: 40vw;
-            background-image: url("/img/31.png");
-            background-size: cover;
+        .product-card {
+            width: 20%;
+            height: 100%;
             float: left;
+            margin: 0 2.5%;
+        }
+
+        .product-card :nth-child(2) {
+            text-align: center;
+            color: white;
+            font-size: 20px;
+            margin: 10px 0;
         }
 
         .title {
-            font-size: 48px;
-            margin-top: 30px;
-            margin-bottom: 20px;
+            text-align: center;
+            font-size:
         }
 
-        .text div {
-            font-size: 26px;
-            letter-spacing: 3px;
-            line-height: 30px;
-            margin-bottom: 30px;
+        .img1 {
+            width: 100%;
+            height: 200px;
+            margin-top: 25px;
+            background-repeat: no-repeat;
         }
 
-        .text-50vw {
-            width: 50%;
+        .img1-1 {
+
+            background-image: url("/img/1-1.jpg");
+            background-size: cover;
+            background-position: center;
+        }
+
+        .img1-2 {
+
+            background-image: url("/img/2.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        .img1-3 {
+
+            background-image: url("/img/3.jpg");
+            background-position: center;
+            background-size: cover;
+        }
+
+        .img1-4 {
+
+            background-image: url("/img/4.png");
+            background-position: center;
+            background-size: cover;
+        }
+
+        .img2 {
+            width: 100%;
+            height: 200px;
             float: left;
-            padding-right: 50px;
+            margin: 25px 2% 0 2%;
+            background-repeat: no-repeat;
+        }
+
+        .img2-1 {
+            background-image: url("/img/25.jpg");
+            background-position: center;
+            background-size: cover;
+        }
+
+        .img2-2 {
+            background-image: url("/img/7.jpg");
+            background-position: center;
+            background-size: cover;
+        }
+
+        .img2-3 {
+            background-image: url("/img/8-1.jpg");
+            background-position: center;
+            background-size: cover;
+        }
+
+        .img2-4 {
+            background-image: url("/img/4.png");
+            background-position: center;
+            background-size: cover;
+        }
+
+        .img3-block {
+            height: 500px;
+            width: 100%;
+            position: relative;
+        }
+
+        .img3 {
+            position: absolute;
+            left: 0;
+            top: 50px;
+
+            width: 50%;
+            height: 400px;
+
+            background-image: url("/img/8-1.jpg");
+            background-position: center;
+            background-size: cover;
+        }
+
+        .text3-block {
+            position: absolute;
+            left: 45%;
+            top: 179px;
+            background-color: #F15A24;
+
+            width: 300px;
+            color: white;
+            padding: 10px;
+        }
+
+        @media screen and (max-width:615px) {
+            .img-block,
+            .img3-block {
+                width: 615px;
+            }
         }
 
         @media screen and (max-width:883px) {
-            .img1 {
-                width: 100%;
-                height: 80vw;
+            .product-card :nth-child(2) {
+                font-size: 16px;
             }
-            .text-50vw {
-                width: 100%;
-                padding-right: 30px;
-            }
-            .title {
-                font-size: 36px;
-            }
-            .text div {
-                font-size: 24px;
-            }
-            
         }
     </style>
 </head>
@@ -128,36 +215,68 @@
             </header>
         </div>
     </div>
-
     <!-- nav end -->
 
-    <div class="contain">
-        <div class="title">
-            關於我們
+    <div>
+        <div class="contain">
+            <h1 class="title">產品介紹</h1>
         </div>
-        <div class="text">
-            <div>
-                鹿港市場粉圓伯 創立於1950年，阿伯從彰化縣福興鄉沿海路推著攤車推到鹿港第一市場販賣，直到102 年福鹿溪橋改建，才改用三輪車運送，這一賣就是五十幾年......。
-
-            </div>
-            <div>
-                創立至今，我們 所有粉圓堅持手工製作，絕不添加任何防腐劑、香料、化學色素，傳承阿公留下來的美味，又能讓客人吃得安心。
-
-            </div>
-            <div>
-                過去農村時代消暑解渴的甜品，粉圓加上碎冰的古早味吃法，QQ彈牙，令人回味無窮。用塑膠袋和束繩綁回憶小時候的超級古早味。
-
-            </div>
-            <div class="text-50vw">
-                純手工製作，粒粒皆辛苦，能讓客人品嘗到美味粉圓，我們再累也是堅持純手工製作，手工製作數量不大，絕不需添加任何防腐劑，能讓客人吃的新鮮又美味，是我們經營手工粉圓的理念，歡迎大家來品嘗手工粉圓。
-
-            </div>
-            <div class="img1">
-
+        <div class="img-block">
+            <div class="contain">
+                <div class="product-card">
+                    <div class="img1-1 img1"></div>
+                    <div>粉圓冰&nbsp;25元</div>
+                </div>
+                <div class="product-card">
+                    <div class="img1-2 img1"></div>
+                    <div>粉粿冰&nbsp;25元</div>
+                </div>
+                <div class="product-card">
+                    <div class="img1-3 img1"></div>
+                    <div>米苔目冰&nbsp;25元</div>
+                </div>
+                <div class="product-card">
+                    <div class="img1-4 img1"></div>
+                    <div>愛玉冰&nbsp;25元</div>
+                </div>
             </div>
         </div>
+        <div class="img3-block">
+            <div class="conatin">
+                <div class="img3"></div>
+                <div class="text3-block">
+                    <div>手工粉圓</div>
+                    小杯20元(冷.熱) <br> 大杯25元 <br> 一包40元(含粉圓) <br> 一組50元(含粉圓.糖水) <br> 一大組60元(含粉圓.糖水.剉冰) <br>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="img-block">
+            <div class="contain">
+                <div class="product-card">
+                    <div class="img2-1 img2"></div>
+                    <div>粉圓冰&nbsp;25元</div>
+                </div>
+                <div class="product-card">
+                    <div class="img2-2 img2"></div>
+                    <div>粉粿冰&nbsp;25元</div>
+                </div>
+                <div class="product-card">
+                    <div class="img2-3 img2"></div>
+                    <div>米苔目冰&nbsp;25元</div>
+                </div>
+                <div class="product-card">
+                    <div class="img2-4 img2"></div>
+                    <div>愛玉冰&nbsp;25元</div>
+                </div>
+            </div>
+        </div>
+
     </div>
     <div style="clear:both;"></div>
+    </div>
+
     <!-- footer start -->
     <div class="footer">
         <div class="contain">
@@ -209,9 +328,9 @@
             <div class="footer-contain">
 
                 <div class="footer-mobile-text">
-                    <span style="letter-spacing:5px;">連絡電話:0910-590-331</span> <br> 地&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;址:彰化縣鹿港鎮大明路37號
-                    <br>
-                    <span style="letter-spacing:5px;">營業時間:AM06:30~PM12:00<span class="mobile-delete">(售完為止)</span></span>
+                    <span>連絡電話:0910-590-331</span> <br>
+                    <span> 地<span class="mobile-delete">&nbsp;&nbsp;</span>&nbsp;&nbsp;&nbsp;&nbsp;址:彰化縣鹿港鎮大明路37號</span><br>
+                    <span>營業時間:AM06:30~PM12:00<span class="mobile-delete">(售完為止)</span></span>
                 </div>
 
             </div>
