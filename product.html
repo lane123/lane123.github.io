@@ -9,10 +9,144 @@
     <title>Document</title>
 
     <link href="css/nav.css" rel="stylesheet">
-    <link href="css/footer.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/footer.css">
 
     <style>
+        .img-block {
+            width: 100%;
+            height: 270px;
+            background-color: #F15A24;
+        }
 
+        .product-card {
+            width: 20%;
+            height: 100%;
+            float: left;
+            margin: 0 2.5%;
+        }
+
+        .product-card :nth-child(2) {
+            text-align: center;
+            color: white;
+            font-size: 20px;
+            margin: 10px 0;
+        }
+
+        .title {
+            text-align: center;
+            font-size:
+        }
+
+        .img1 {
+            width: 100%;
+            height: 200px;
+            margin-top: 25px;
+            background-repeat: no-repeat;
+        }
+
+        .img1-1 {
+
+            background-image: url("/img/1-1.jpg");
+            background-size: cover;
+            background-position: center;
+        }
+
+        .img1-2 {
+
+            background-image: url("/img/2.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        .img1-3 {
+
+            background-image: url("/img/3.jpg");
+            background-position: center;
+            background-size: cover;
+        }
+
+        .img1-4 {
+
+            background-image: url("/img/4.png");
+            background-position: center;
+            background-size: cover;
+        }
+
+        .img2 {
+            width: 100%;
+            height: 200px;
+            float: left;
+            margin: 25px 2% 0 2%;
+            background-repeat: no-repeat;
+        }
+
+        .img2-1 {
+            background-image: url("/img/25.jpg");
+            background-position: center;
+            background-size: cover;
+        }
+
+        .img2-2 {
+            background-image: url("/img/7.jpg");
+            background-position: center;
+            background-size: cover;
+        }
+
+        .img2-3 {
+            background-image: url("/img/8-1.jpg");
+            background-position: center;
+            background-size: cover;
+        }
+
+        .img2-4 {
+            background-image: url("/img/4.png");
+            background-position: center;
+            background-size: cover;
+        }
+
+        .img3-block {
+            height: 500px;
+            width: 100%;
+            position: relative;
+        }
+
+        .img3 {
+            position: absolute;
+            left: 0;
+            top: 50px;
+
+            width: 50%;
+            height: 400px;
+
+            background-image: url("/img/8-1.jpg");
+            background-position: center;
+            background-size: cover;
+        }
+
+        .text3-block {
+            position: absolute;
+            left: 45%;
+            top: 179px;
+            background-color: #F15A24;
+
+            width: 300px;
+            color: white;
+            padding: 10px;
+        }
+
+        @media screen and (max-width:615px) {
+            .img-block,
+            .img3-block {
+                width: 615px;
+            }
+        }
+
+        @media screen and (max-width:883px) {
+            .product-card :nth-child(2) {
+                font-size: 16px;
+            }
+        }
     </style>
 </head>
 
@@ -81,8 +215,67 @@
             </header>
         </div>
     </div>
-
     <!-- nav end -->
+
+    <div>
+        <div class="contain">
+            <h1 class="title">產品介紹</h1>
+        </div>
+        <div class="img-block">
+            <div class="contain">
+                <div class="product-card">
+                    <div class="img1-1 img1"></div>
+                    <div>粉圓冰&nbsp;25元</div>
+                </div>
+                <div class="product-card">
+                    <div class="img1-2 img1"></div>
+                    <div>粉粿冰&nbsp;25元</div>
+                </div>
+                <div class="product-card">
+                    <div class="img1-3 img1"></div>
+                    <div>米苔目冰&nbsp;25元</div>
+                </div>
+                <div class="product-card">
+                    <div class="img1-4 img1"></div>
+                    <div>愛玉冰&nbsp;25元</div>
+                </div>
+            </div>
+        </div>
+        <div class="img3-block">
+            <div class="conatin">
+                <div class="img3"></div>
+                <div class="text3-block">
+                    <div>手工粉圓</div>
+                    小杯20元(冷.熱) <br> 大杯25元 <br> 一包40元(含粉圓) <br> 一組50元(含粉圓.糖水) <br> 一大組60元(含粉圓.糖水.剉冰) <br>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="img-block">
+            <div class="contain">
+                <div class="product-card">
+                    <div class="img2-1 img2"></div>
+                    <div>粉圓冰&nbsp;25元</div>
+                </div>
+                <div class="product-card">
+                    <div class="img2-2 img2"></div>
+                    <div>粉粿冰&nbsp;25元</div>
+                </div>
+                <div class="product-card">
+                    <div class="img2-3 img2"></div>
+                    <div>米苔目冰&nbsp;25元</div>
+                </div>
+                <div class="product-card">
+                    <div class="img2-4 img2"></div>
+                    <div>愛玉冰&nbsp;25元</div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div style="clear:both;"></div>
+    </div>
 
     <!-- footer start -->
     <div class="footer">
