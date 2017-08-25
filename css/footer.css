@@ -86,6 +86,7 @@
     padding: 30px 0;
 }
 .footer-mobile-text span{
+    position:absolute
     letter-spacing: 5px;
 }
 * {
@@ -112,9 +113,6 @@
     }
 }
 @media screen and (max-width:615px) {
-    .footer-contain{
-        padding:0 10%;
-    }
     .footer-mobile-text{
         padding:0;
     }
@@ -123,14 +121,14 @@
         display:none;
     }
     .footer-mobile-text span{
-        font-size:1vw;
+        font-size:10px;
     }
     
 }
 @media screen and (max-width:483px) {
     
     .footer-mobile-text span{
-        font-size:0.6vw;
+        font-size:0.3vw;
         letter-spacing: 0.09vw;
     }
     .footer-mobile-text{

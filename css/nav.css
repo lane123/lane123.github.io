@@ -96,6 +96,8 @@ a:hover {
     background-color: transparent;
 }
 
+
+
 .slider-container {
     width: 100%;
     height: 100vh;
@@ -220,13 +222,17 @@ a:hover {
 }
 
 
-
+.search-form{
+    position: relative;
+}
 .search-box {
     margin: 20px 0;
     float: left;
 }
 
 .search-btn {
+    position: absolute;
+    right: 0;
     margin: 20px 0;
     float: left;
 }

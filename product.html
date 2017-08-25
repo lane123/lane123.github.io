@@ -33,8 +33,7 @@
         }
 
         .title {
-            text-align: center;
-            font-size:
+
         }
 
         .img1 {
@@ -130,21 +129,24 @@
             top: 179px;
             background-color: #F15A24;
 
-            width: 300px;
+            width: 45%;
             color: white;
             padding: 10px;
-        }
-
-        @media screen and (max-width:615px) {
-            .img-block,
-            .img3-block {
-                width: 615px;
-            }
         }
 
         @media screen and (max-width:883px) {
             .product-card :nth-child(2) {
                 font-size: 16px;
+            }
+        }
+        @media screen and (max-width:615px) {
+            .product-card :nth-child(2) {
+                font-size:12px;
+            }
+        }
+        @media screen and (min-width:615px) {
+            .change-line{
+                display:none;
             }
         }
     </style>
@@ -170,13 +172,13 @@
             <div class="contain" style="position:relative;">
                 <ul>
                     <li><a href="index.html">首頁</a></li>
-                    <li><a href="about.html">關於我們</a></li>
+                    <li><a href="about.html#about">關於我們</a></li>
                     <li><a href="#">最新消息</a></li>
                     <li><a href="#">產品介紹</a></li>
                     <li><a href="#product-footer">聯絡我們</a></li>
                     
                     <div style="float:left;">
-                        <form class="">
+                        <form class="search-form">
                             <div class="search-box">
                                 <input type="text" class="form-control" placeholder="Search">
                             </div>
@@ -201,7 +203,7 @@
                 <nav class="mobile-nav-wrap" role="navigation">
                     <ul class="mobile-header-nav">
                         <li><a href="index.html">首頁</a></li>
-                        <li><a href="about.html">關於我們</a></li>
+                        <li><a href="about.html#about">關於我們</a></li>
                         <li><a href="#">最新消息</a></li>
                         <li><a href="#">產品介紹</a></li>
                         <li><a href="#product-footer">聯絡我們</a></li>
@@ -218,7 +220,7 @@
         </div>
     </div>
     <!-- nav end -->
-
+    <a id="product"></a>
     <div>
         <div class="contain">
             <h1 class="title">產品介紹</h1>
@@ -227,19 +229,19 @@
             <div class="contain">
                 <div class="product-card">
                     <div class="img1-1 img1"></div>
-                    <div>粉圓冰&nbsp;25元</div>
+                    <div>粉圓冰&nbsp;<br class="change-line">25元</div>
                 </div>
                 <div class="product-card">
                     <div class="img1-2 img1"></div>
-                    <div>粉粿冰&nbsp;25元</div>
+                    <div>粉粿冰&nbsp;<br class="change-line">25元</div>
                 </div>
                 <div class="product-card">
                     <div class="img1-3 img1"></div>
-                    <div>米苔目冰&nbsp;25元</div>
+                    <div>米苔目冰&nbsp;<br class="change-line">25元</div>
                 </div>
                 <div class="product-card">
                     <div class="img1-4 img1"></div>
-                    <div>愛玉冰&nbsp;25元</div>
+                    <div>愛玉冰&nbsp;<br class="change-line">25元</div>
                 </div>
             </div>
         </div>
@@ -258,19 +260,19 @@
             <div class="contain">
                 <div class="product-card">
                     <div class="img2-1 img2"></div>
-                    <div>粉圓冰&nbsp;25元</div>
+                    <div>粉圓冰&nbsp;<br class="change-line">25元</div>
                 </div>
                 <div class="product-card">
                     <div class="img2-2 img2"></div>
-                    <div>粉粿冰&nbsp;25元</div>
+                    <div>粉粿冰&nbsp;<br class="change-line">25元</div>
                 </div>
                 <div class="product-card">
                     <div class="img2-3 img2"></div>
-                    <div>米苔目冰&nbsp;25元</div>
+                    <div>米苔目冰&nbsp;<br class="change-line">25元</div>
                 </div>
                 <div class="product-card">
                     <div class="img2-4 img2"></div>
-                    <div>愛玉冰&nbsp;25元</div>
+                    <div>愛玉冰&nbsp;<br class="change-line">25元</div>
                 </div>
             </div>
         </div>
