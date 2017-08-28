@@ -336,6 +336,7 @@ header {
 @media screen and (min-width:1200px) {
     .logo {
         left: calc((100vw - 1200px) / 2);
+        top: 80px;
     }
     .section-nav {
         display: none;
