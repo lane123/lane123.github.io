@@ -126,7 +126,7 @@ a:hover {
 .slider-img2 {
     width: 100%;
     height: 80vh;
-    background-image: url("/img/1-1.jpg");
+    background-image: url("/img/27.jpg");
     background-position: center;
     background-size: cover;
 }
@@ -249,7 +249,7 @@ header {
 
 @media (min-width: 768px) {
     .mobile-nav-wrap {
-        /* display: none; */
+       display:none;
     }
 }
 
