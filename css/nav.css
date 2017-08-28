@@ -347,6 +347,9 @@ header {
     .section3_mobile {
         display: none;
     }
+    .mobile-logo-block{
+        display: none;
+    }
 }
 
 @media screen and (max-width:1200px) {
