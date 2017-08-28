@@ -356,6 +356,10 @@ header {
 }
 
 @media screen and (max-width:1200px) {
+    .logo{
+        left:5%;
+
+    }
     .nav {
         display: none;
     }
