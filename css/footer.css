@@ -128,7 +128,7 @@
 @media screen and (max-width:483px) {
     
     .footer-mobile-text span{
-        font-size:0.3vw;
+        font-size:12px;
         letter-spacing: 0.09vw;
     }
     .footer-mobile-text{
