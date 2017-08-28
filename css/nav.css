@@ -82,8 +82,8 @@ a:hover {
 
 .logo {
     position: absolute;
-    left: 0;
-    top: 80px;
+    left: 10%;
+    top: 10px;
 }
 
 .logo-image {
@@ -247,7 +247,7 @@ header {
     width: 100%;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     .mobile-nav-wrap {
        display:none;
     }
@@ -286,6 +286,8 @@ header {
     display: inline-block;
     height: 100px;
     padding: 35px 25px;
+    position: relative;
+    left: 80%;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
 }
@@ -356,9 +358,7 @@ header {
     .nav {
         display: none;
     }
-    .logo {
-        display: none;
-    }
+
     .section1 {
         display: none;
     }
